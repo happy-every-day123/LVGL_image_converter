@@ -1008,7 +1008,7 @@ class OutputFormat(Enum):
 class LVGLImageConverterApp(QMainWindow):
     def __init__(self, parent=None):
         super(LVGLImageConverterApp, self).__init__(parent)
-        self.setWindowTitle('LVGL Image Converter')
+        self.setWindowTitle('LVGL Image Converter, Author by: Yiqi Ma')
         self.setGeometry(100, 100, 600, 400)
         self.initUI()
 
